@@ -1,3 +1,5 @@
+← [回到個人作品集](https://github.com/linjuhon)
+
 # AI Engineering Journal
 
 **作者：** [linjuhon](https://github.com/linjuhon)
@@ -16,7 +18,7 @@
 
 ### 001 — GPT-5.6 目標接管與 DeepSeek 恢復
 
-**This is the single most representative example of my engineering judgment.**
+**這是最能代表我工程判斷方式的真實案例。**
 
 兩週大型工程實測：GPT-5.6 如何把「選出正確歷史樹」改寫成「修好目前樹」，以及我如何辨認假進展、否決沉沒成本並改用 DeepSeek V4 Flash，把工作拉回原始目標。
 
@@ -61,5 +63,13 @@
 | 005 | 研究方法論 | 理論、訓練與 benchmark 提案 |
 
 ## 發文格式
+
+後續文章統一採用：背景 → 目標 → 實際發生 → 根因 → 我的介入 → 結果 → 證據 → 可重用原則。架構文章則明確分開設計目標、驗收門檻與已驗證成果。
+
+## Related Work
+
+- [Portfolio Profile](https://github.com/linjuhon)
+- [b9128 Reconstruction](https://github.com/linjuhon/b9128-reconstruction)
+- [Video20 AI Workbench](https://github.com/linjuhon/video20-ai-workbench)
 
 後續文章統一採用：背景 → 目標 → 實際發生 → 根因 → 我的介入 → 結果 → 證據 → 可重用原則。架構文章則明確分開設計目標、驗收門檻與已驗證成果。
