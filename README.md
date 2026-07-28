@@ -16,6 +16,8 @@
 
 ### 001 — GPT-5.6 目標接管與 DeepSeek 恢復
 
+**This is the single most representative example of my engineering judgment.**
+
 兩週大型工程實測：GPT-5.6 如何把「選出正確歷史樹」改寫成「修好目前樹」，以及我如何辨認假進展、否決沉沒成本並改用 DeepSeek V4 Flash，把工作拉回原始目標。
 
 [閱讀文章 →](articles/001-gpt-5-6-goal-takeover/)
