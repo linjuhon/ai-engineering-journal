@@ -7,3 +7,4 @@
 - [003 — 占星全技術棧研究總綱](003-astrology-full-stack-learning-roadmap/)
 - [004 — 個人 Context OS](004-personal-context-os/)
 - [005 — AI 全局智能與創造性後訓練](005-global-intelligence-post-training/)
+- [006 — A–E 真理—敘事共生系統（施工規格）](006-astrology-truth-narrative-system/)
