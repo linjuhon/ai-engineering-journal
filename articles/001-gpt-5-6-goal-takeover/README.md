@@ -178,6 +178,7 @@ DeepSeek 不代表在所有維度都比 GPT-5.6 強。這次真正關鍵的是�
 - [個人 Context OS：如何把目標、Skills、衝突與任務狀態外置治理](../004-personal-context-os/)
 - [AI 全局智能與後訓練：為什麼模型會困在局部最優](../005-global-intelligence-post-training/)
 - [A–E 真理—敘事共生系統：控制面、治理閉環與施工規格](../006-astrology-truth-narrative-system/)
+- [上行模型 × 下行模型：反向抽象後訓練與不確定性直面框架](../007-upward-downward-model/)（本文案例的系統化解法：上行模型審計 claim、抓假成功）
 
 ---
 
