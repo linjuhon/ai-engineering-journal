@@ -11,7 +11,7 @@
 > 主模型只專注當下；紀事員負責維護目的、標準、底線、計畫、衝突與完成狀態。所有聊天前端、主模型和執行器都可替換；真正的產品是 Context Core。
 
 **文章類型：** Product Architecture / AI Memory Governance  
-**版本：** 2026-07-28  
+**版本：** 2026-07-30  
 **成熟度：** 完整產品規格與一個月 MVP 路線；尚待真實使用資料驗證核心行為。
 
 # 目錄
@@ -899,6 +899,12 @@ Skills State/Event Life/Artifacts<br />
 | 模型自己修改自己        | 容易矯枉過正與規則互相污染                          | 有範圍、有 Patch、有回放、有批准的滾動修正 |
 
 # **20. 尚未解決、必須靠實測回答的問題**
+
+## 相關文章
+
+- [Article 001：GPT-5.6 目標接管與 DeepSeek 恢復](../001-gpt-5-6-goal-takeover/) — 本文的原始問題來源：大型工程代理如何把「選正確樹」改寫成「修目前樹」
+- [Article 005：從答案生成器到全局智能](../005-global-intelligence-post-training/) — 目標主權、認知調度器與範式切換的理論框架，與 Context OS 的治理原則一致
+- [Article 006：A–E 真理—敘事共生系統](../006-astrology-truth-narrative-system/) — Context OS 的控制面與治理閉環在占星領域的具體實作（C 控制面、D 治理助手、12 條憲法）
 
 概念與架構已經清楚，但以下問題不能只靠規格推演，必須在真實使用中建立資料集與門檻。
 

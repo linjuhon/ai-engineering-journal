@@ -160,7 +160,7 @@ DeepSeek 不代表在所有維度都比 GPT-5.6 強。這次真正關鍵的是�
 
 ## 7. 對後續系統設計的影響
 
-這次事故直接促成我後續的 Context OS／AI 控制面設計：
+這次事故直接促成我後續的 Context OS／AI 控制面設計，並在占星領域落地為 A–E 真理—敘事共生系統：
 
 - 目的、完成標準與禁止替代項外置保存；
 - 執行前編譯成凍結的 Execution Spec；
@@ -169,13 +169,18 @@ DeepSeek 不代表在所有維度都比 GPT-5.6 強。這次真正關鍵的是�
 - 執行後以 Git、測試、檔案和環境 fingerprint 對帳；
 - 主模型不能自行把方法判斷升格為使用者的新目標。
 
+上述原則的具體實作，參見 [Article 006：A–E 真理—敘事共生系統](../006-astrology-truth-narrative-system/)（C 控制面、D 治理閉環、12 條系統憲法）。
+
 ## 8. 證據與延伸閱讀
 
 - [OpenAI Codex Issue #35130：完整兩週實測與失效分類](https://github.com/openai/codex/issues/35130)
 - [b9128-reconstruction：重建成果與證據包](https://github.com/linjuhon/b9128-reconstruction)
 - [個人 Context OS：如何把目標、Skills、衝突與任務狀態外置治理](../004-personal-context-os/)
 - [AI 全局智能與後訓練：為什麼模型會困在局部最優](../005-global-intelligence-post-training/)
+- [A–E 真理—敘事共生系統：控制面、治理閉環與施工規格](../006-astrology-truth-narrative-system/)
 
 ---
 
 **作者註：** 本文記錄的是特定模型版本、特定時期與特定大型工程情境下的實測，不主張所有任務都會得到相同結果。重點是可觀察的失效模式、介入方式與工程治理教訓。
+
+**版本：** 2026-07-30

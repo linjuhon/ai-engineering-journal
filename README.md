@@ -38,6 +38,12 @@
 
 [閱讀文章 →](articles/004-personal-context-os/)
 
+### 006 — A–E 真理—敘事共生系統（施工規格）
+
+A–E 五元件物理隔離架構：100 維顯式控制面、六層資料工程、冷啟動五階段、D 治理閉環與 1024 維語義橋接研究。是 Article 002 的深度施工規格，也是 Article 005 理論的具體實作案例。
+
+[閱讀文章 →](articles/006-astrology-truth-narrative-system/)
+
 ## Research & Learning
 
 ### 003 — 占星系統全技術棧深度學習總綱
@@ -61,6 +67,7 @@
 | 003 | 研究／課程總綱 | 章節化長程路線 |
 | 004 | 產品架構 | 完整規格，待 MVP 與真實評測 |
 | 005 | 研究方法論 | 理論、訓練與 benchmark 提案 |
+| 006 | 施工規格 | 混合（各章節獨立標註成熟度） |
 
 ## 發文格式
 
@@ -71,5 +78,3 @@
 - [Portfolio Profile](https://github.com/linjuhon)
 - [b9128 Reconstruction](https://github.com/linjuhon/b9128-reconstruction)
 - [Video20 AI Workbench](https://github.com/linjuhon/video20-ai-workbench)
-
-後續文章統一採用：背景 → 目標 → 實際發生 → 根因 → 我的介入 → 結果 → 證據 → 可重用原則。架構文章則明確分開設計目標、驗收門檻與已驗證成果。

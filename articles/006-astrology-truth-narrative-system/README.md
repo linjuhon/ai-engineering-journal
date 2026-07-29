@@ -2,6 +2,7 @@
 
 > **文章類型：** Normative Implementation Specification
 > **成熟度：** 混合（各章節獨立標註）
+> **版本：** 2026-07-30
 > **對應 Article：** 002（產品架構總覽）、005（全局智能理論框架）
 
 ---
