@@ -93,3 +93,7 @@ True intelligence is not doing one thing better. It is knowing when to stop doin
 ---
 
 **版本：** 2026-07-30
+
+---
+
+**技術細節：** 原始完整文章請見 [`FULL_ARTICLE.md`](FULL_ARTICLE.md)

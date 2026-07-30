@@ -119,3 +119,7 @@ A model should not rush to give an answer. It should first check: do I have enou
 ---
 
 **版本：** 2026-07-30
+
+---
+
+**技術細節：** 原始章節目錄與狀態請見 [`TECHNICAL_INDEX.md`](TECHNICAL_INDEX.md)

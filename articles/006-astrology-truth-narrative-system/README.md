@@ -105,3 +105,7 @@ Power must be separated. No single component should define what is true, create 
 ---
 
 **版本：** 2026-07-30
+
+---
+
+**技術細節：** 原始章節目錄與狀態請見 [`TECHNICAL_INDEX.md`](TECHNICAL_INDEX.md)

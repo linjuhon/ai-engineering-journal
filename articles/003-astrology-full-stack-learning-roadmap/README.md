@@ -91,3 +91,7 @@ Real learning is not reading API documentation. It is being able to point to the
 ---
 
 **版本：** 2026-07-30
+
+---
+
+**技術細節：** 原始章節目錄與狀態請見 [`TECHNICAL_INDEX.md`](TECHNICAL_INDEX.md)
