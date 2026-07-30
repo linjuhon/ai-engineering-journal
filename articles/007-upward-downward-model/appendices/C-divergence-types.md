@@ -1,4 +1,8 @@
-# 附錄 C：Divergence Types
+[← 回到技術索引](../TECHNICAL_INDEX.md) | [English](C-divergence-types.en.md) | **繁體中文**
+
+---
+
+# 附錄 C：分歧類型
 
 > **成熟度：** PROVISIONAL（分歧類型需實驗校準）
 

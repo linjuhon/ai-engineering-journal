@@ -1,4 +1,4 @@
-[← 回到文章總覽](../../README.md)
+[← 回到文章入口](README.md) | [English](TECHNICAL_INDEX.en.md) | **繁體中文**
 
 ---
 
@@ -15,12 +15,12 @@
 
 ## 課程設計原則
 
-這套總綱不是 API 名詞表。每章固定要求心智模型、檔案位置、最小代碼、生命週期、資料契約、跨服務對應、測試、可觀測性、反例與技術債，最後要求能用自己的話教回來。
+這套總綱不是 API 名詞表。每章固定要求心智模型、檔案位置、最小程式碼、生命週期、資料契約、跨服務對應、測試、可觀測性、反例與技術債，最後要求能用自己的話教回來。
 
 ## 全部章節
 
 - [00｜軟體工程與系統基礎（先修）](chapters/00.md)
-- [01｜樹狀代碼庫與 Monorepo 架構](chapters/01.md)
+- [01｜樹狀程式碼庫與 Monorepo 架構](chapters/01.md)
 - [02｜TypeScript](chapters/02.md)
 - [03｜Node.js](chapters/03.md)
 - [04｜Express](chapters/04.md)
@@ -48,16 +48,16 @@
 - [26｜Grafana](chapters/26.md)
 - [27｜Jaeger／OpenTelemetry](chapters/27.md)
 - [28｜GitHub Actions](chapters/28.md)
-- [29｜Handlebars／自動文檔處理器](chapters/29.md)
+- [29｜Handlebars／自動文件處理器](chapters/29.md)
 - [30｜測試棧：Jest／Supertest／Playwright](chapters/30.md)
 - [31｜GraphQL／WebSocket／Socket.IO](chapters/31.md)
 - [32｜Nginx／反向代理與 API Gateway](chapters/32.md)
-- [33｜代碼品質：ESLint／Prettier／Husky／SonarQube](chapters/33.md)
+- [33｜程式碼品質：ESLint／Prettier／Husky／SonarQube](chapters/33.md)
 - [34｜跨軟體整合（40 章）](chapters/34.md)
 - [35｜九階段占星系統落地（36 章）](chapters/35.md)
-- [六、實際教學節奏](chapters/36-teaching-rhythm.md)
-- [七、第一課：先看懂一筆資料到底怎麼走](chapters/37-first-lesson-data-flow.md)
-- [八、第一課自我檢查](chapters/38-first-lesson-checklist.md)
+- [36｜實際教學節奏](chapters/36-teaching-rhythm.md)
+- [37｜第一課：先看懂一筆資料到底怎麼走](chapters/37-first-lesson-data-flow.md)
+- [38｜第一課自我檢查](chapters/38-first-lesson-checklist.md)
 
 ## 狀態聲明
 

@@ -1,3 +1,7 @@
+[← 回到技術索引](TECHNICAL_INDEX.md) | [English](10-gate-engine.en.md) | **繁體中文**
+
+---
+
 # 10｜Gate Engine、分歧系統與證據系統
 
 > **成熟度：** PROVISIONAL（gate 狀態已定義；分歧分類需實驗）

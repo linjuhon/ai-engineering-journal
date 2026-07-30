@@ -1,3 +1,7 @@
+[← 回到技術索引](TECHNICAL_INDEX.md) | [English](12-comparison-with-existing.en.md) | **繁體中文**
+
+---
+
 # 12｜與現有框架的對比
 
 > **成熟度：** SETTLED（對比分析已定案）

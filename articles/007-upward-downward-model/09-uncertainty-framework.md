@@ -1,3 +1,7 @@
+[← 回到技術索引](TECHNICAL_INDEX.md) | [English](09-uncertainty-framework.en.md) | **繁體中文**
+
+---
+
 # 09｜不確定性直面框架
 
 > **成熟度：** PROVISIONAL（框架已定義；校準機制需實驗）

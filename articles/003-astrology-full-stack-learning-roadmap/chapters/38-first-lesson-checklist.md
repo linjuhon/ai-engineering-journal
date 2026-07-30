@@ -1,4 +1,4 @@
-[← 回到本研究總綱](../README.md)
+[← 回到技術索引](../TECHNICAL_INDEX.md) | [English](38-first-lesson-checklist.en.md) | **繁體中文**
 
 ---
 

@@ -1,3 +1,7 @@
+[← 回到技術索引](TECHNICAL_INDEX.md) | [English](13-roadmap-and-limitations.en.md) | **繁體中文**
+
+---
+
 # 13｜實作路線圖與已知限制
 
 > **成熟度：** PENDING_EXPERIMENT（路線圖已規劃；時程需實測校準）

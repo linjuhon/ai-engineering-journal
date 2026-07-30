@@ -1,3 +1,7 @@
+[← 回到文章入口](README.md) | [English](TECHNICAL_INDEX.en.md) | **繁體中文**
+
+---
+
 # A–E 真理—敘事共生系統：施工規格
 
 > **文章類型：** Normative Implementation Specification
@@ -54,7 +58,7 @@
 
 | Article | 關係 | 說明 |
 |---------|------|------|
-| **002** | 產品架構總覽 | 002 回答「整個占星網站要建成什麼」；本文回答「核心智能怎麼訓練、運行、治理」 |
+| **002** | 產品架構總覽 | 002 回答「整個占星網站要建成什麼」；本文回答「核心智能怎麼訓練、執行、治理」 |
 | **005** | 理論框架 | 005 定義全局智能通用框架；本文是該理論在占星領域的具體實作案例 |
 
 若 002 與本文在實作細節上衝突，以本文為準。
@@ -107,3 +111,4 @@
 |------|------|
 | [sources/README.md](sources/README.md) | 來源清單與 superseded sections |
 | [sources/original-complete-spec.docx](sources/original-complete-spec.docx) | 原始整合規格（證據保留） |
+| [sources/original-complete-spec.en.md](sources/original-complete-spec.en.md) | 原始整合規格的非正式英文衍生版 |

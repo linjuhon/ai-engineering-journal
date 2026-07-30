@@ -1,3 +1,7 @@
+[← 回到技術索引](TECHNICAL_INDEX.md) | [English](03-agent-failure-analysis.en.md) | **繁體中文**
+
+---
+
 # 03｜Agent 失效分析
 
 > **成熟度：** SETTLED（失效模式已驗證）

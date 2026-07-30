@@ -1,3 +1,7 @@
+[← 回到文章入口](README.md) | [English](TECHNICAL_INDEX.en.md) | **繁體中文**
+
+---
+
 # 上行模型 × 下行模型：反向抽象後訓練與不確定性直面框架
 
 > **文章類型：** AI Training Architecture / Bidirectional Adversarial Post-Training
@@ -78,3 +82,4 @@
 |------|------|
 | [sources/README.md](sources/README.md) | 來源清單 |
 | [sources/original-spec.txt](sources/original-spec.txt) | 原始整合規格（證據保留） |
+| [sources/original-spec.en.md](sources/original-spec.en.md) | 原始整合規格的非正式英文衍生版 |

@@ -1,3 +1,7 @@
+[← 回到技術索引](TECHNICAL_INDEX.md) | [English](01-core-thesis.en.md) | **繁體中文**
+
+---
+
 # 01｜核心論點
 
 > **成熟度：** SETTLED（核心命題）

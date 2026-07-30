@@ -1,16 +1,14 @@
-[← 回到文章總覽](../README.md)
+[← Back to Article Index / 回到文章總覽](../README.md)
 
 ---
 
-# 上行模型 × 下行模型
+# Upward Model × Downward Model: Bidirectional Adversarial Post-Training / 上行模型 × 下行模型
 
-**English title:** *Upward Model × Downward Model: Bidirectional Adversarial Post-Training*
-
-> **一句話定位：** One model generates details from purpose (downward). Another model reverse-infers purpose from results (upward). Both compete. The system does not rush to answer — it first checks if there is enough evidence. / 一個模型從目的推細節（下行），另一個模型從結果反推目的（上行）。兩者競爭。系統不急著給答案——它先檢查有沒有足夠的證據。
+> **One-line Positioning / 一句話定位：** One model generates details from purpose (downward). Another model reverse-infers purpose from results (upward). Both compete. The system does not rush to answer — it first checks if there is enough evidence. / 一個模型從目的推細節（下行），另一個模型從結果反推目的（上行）。兩者競爭。系統不急著給答案——它先檢查有沒有足夠的證據。
 
 ---
 
-## 初衷 / Why
+## Why / 初衷
 
 **English:**
 
@@ -30,7 +28,7 @@ I wrote this article to define a training framework that forces models to check 
 
 ---
 
-## 初衷的由來 / Origin
+## Origin / 初衷的由來
 
 **English:**
 
@@ -58,7 +56,7 @@ Later, I realized this same pattern applies to all AI engineering work. The prob
 
 ---
 
-## 實戰成績 / Results
+## Results / 實戰成績
 
 **English:**
 
@@ -82,7 +80,7 @@ Later, I realized this same pattern applies to all AI engineering work. The prob
 
 ---
 
-## 可造成的結果 / Impact
+## Impact / 可造成的結果
 
 **English:**
 
@@ -106,7 +104,7 @@ If implemented, this would produce models that:
 
 ---
 
-## 理想與抱負 / Vision
+## Vision / 理想與抱負
 
 **English:**
 
@@ -118,8 +116,8 @@ A model should not rush to give an answer. It should first check: do I have enou
 
 ---
 
-**版本：** 2026-07-30
+**Version / 版本：** 2026-07-30
 
 ---
 
-**技術細節：** 原始章節目錄與狀態請見 [`TECHNICAL_INDEX.md`](TECHNICAL_INDEX.md)
+**Technical Details / 技術細節：** English technical index: [`TECHNICAL_INDEX.en.md`](TECHNICAL_INDEX.en.md) · 繁體中文技術索引：[`TECHNICAL_INDEX.md`](TECHNICAL_INDEX.md)

@@ -1,3 +1,7 @@
+[← 回到技術索引](TECHNICAL_INDEX.md) | [English](05-upward-downward-model.en.md) | **繁體中文**
+
+---
+
 # 05｜下行模型與上行模型
 
 > **成熟度：** PROVISIONAL（概念已定案；訓練框架尚未實作）

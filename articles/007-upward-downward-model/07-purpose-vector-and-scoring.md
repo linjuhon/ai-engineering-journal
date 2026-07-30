@@ -1,3 +1,7 @@
+[← 回到技術索引](TECHNICAL_INDEX.md) | [English](07-purpose-vector-and-scoring.en.md) | **繁體中文**
+
+---
+
 # 07｜目的向量與三層鎖
 
 > **成熟度：** PROVISIONAL（概念已定案；維度需實驗校準）

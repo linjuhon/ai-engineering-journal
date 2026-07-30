@@ -1,3 +1,7 @@
+[← 回到技術索引](../TECHNICAL_INDEX.md) | [English](A-gate-specs.en.md) | **繁體中文**
+
+---
+
 # 附錄 A：Gate Specs
 
 > **成熟度：** PROVISIONAL（spec 需與實作同步更新）
@@ -41,7 +45,7 @@ checkpoints:
 pass_condition: 所有 checkpoint PASS
 fail_condition: 任一 checkpoint FAIL
 uncertain_condition: checkpoint 證據不足
-insufficient_evidence_condition: 缺少關鍵 checkpoint 證據
+insufficient_evidence_condition: 缺乏關鍵 checkpoint 證據
 ambiguous_condition: checkpoint 證據矛盾
 next_gate: G2
 fallback_gate: null
@@ -71,7 +75,7 @@ checkpoints:
 pass_condition: 所有 checkpoint 在 tolerance 內
 fail_condition: 存在 first divergence
 uncertain_condition: checkpoint 資料不完整
-insufficient_evidence_condition: 缺少 oracle 比較基準
+insufficient_evidence_condition: 缺乏 oracle 比較基準
 ambiguous_condition: 多個 checkpoint 同時 divergence
 next_gate: G3
 fallback_gate: G1
@@ -93,7 +97,7 @@ checkpoints:
 pass_condition: 所有品質指標在門檻內
 fail_condition: 任一品質指標超出門檻
 uncertain_condition: 品質指標資料不足
-insufficient_evidence_condition: 缺少下游任務評估
+insufficient_evidence_condition: 缺乏下游任務評估
 ambiguous_condition: 不同配置下的品質指標不一致
 next_gate: G4
 fallback_gate: G2
@@ -115,7 +119,7 @@ checkpoints:
 pass_condition: 所有效能指標在門檻內
 fail_condition: 任一效能指標超出門檻
 uncertain_condition: 效能資料不足
-insufficient_evidence_condition: 缺少硬體配置基準
+insufficient_evidence_condition: 缺乏硬體配置基準
 ambiguous_condition: 不同硬體配置下的效能不一致
 next_gate: null
 fallback_gate: G3

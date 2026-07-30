@@ -1,3 +1,7 @@
+[← 回到技術索引](TECHNICAL_INDEX.md) | [English](02-component-boundaries.en.md) | **繁體中文**
+
+---
+
 # 02｜元件邊界
 
 > **成熟度：** SETTLED（核心契約）；PROVISIONAL（模型規模建議）
@@ -130,7 +134,7 @@
 
 ---
 
-## 2.5 D：Governance Assistant（治理助手）
+## 2.5 D：Governance Assistant（治理助理）
 
 ### Identity
 
@@ -180,7 +184,7 @@
 
 - 讀取：A 的 `truth_package`（E_truth）、B 的全文（E_text）
 - 輸出：向量表示 + 相似度分數
-- 以影子模式運行（不影響放行）
+- 以影子模式執行（不影響放行）
 
 ### Forbidden
 
@@ -197,7 +201,7 @@
 
 ### Fallback
 
-- E 不可用 → 系統在無 E 狀態下正常運行（C 的 CosSim 維度停用）
+- E 不可用 → 系統在無 E 狀態下正常執行（C 的 CosSim 維度停用）
 
 ---
 

@@ -1,3 +1,7 @@
+[← 回到技術索引](TECHNICAL_INDEX.md) | [English](11-training-objectives.en.md) | **繁體中文**
+
+---
+
 # 11｜訓練目標
 
 > **成熟度：** PROVISIONAL（訓練目標已定義；訓練順序需實驗）

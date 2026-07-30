@@ -1,3 +1,7 @@
+[← 回到技術索引](TECHNICAL_INDEX.md) | [English](04-runtime-pipeline.en.md) | **繁體中文**
+
+---
+
 # 04｜線上推理管線
 
 > **成熟度：** PROVISIONAL（同步路徑已定案；非同步預覽模式待產品需求決定）

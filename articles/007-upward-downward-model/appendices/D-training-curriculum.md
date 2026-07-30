@@ -1,3 +1,7 @@
+[← 回到技術索引](../TECHNICAL_INDEX.md) | [English](D-training-curriculum.en.md) | **繁體中文**
+
+---
+
 # 附錄 D：Training Curriculum
 
 > **成熟度：** PROVISIONAL（課程需實驗校準）

@@ -1,3 +1,7 @@
+[← 回到技術索引](TECHNICAL_INDEX.md) | [English](02-engineering-origin.en.md) | **繁體中文**
+
+---
+
 # 02｜工程起源：FA4 的四層 Truth Gate
 
 > **成熟度：** SETTLED（工程方法已驗證）

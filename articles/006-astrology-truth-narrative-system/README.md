@@ -1,16 +1,14 @@
-[← 回到文章總覽](../README.md)
+[← Back to Article Index / 回到文章總覽](../README.md)
 
 ---
 
-# A–E 真理—敘事共生系統
+# A–E Truth-Narrative Symbiotic System / A–E 真理—敘事共生系統
 
-**English title:** *A–E Truth-Narrative Symbiotic System*
-
-> **一句話定位：** Five physically separated components solving the fundamental contradiction between truth (needs precision) and narrative (needs stories). / 五個完全分開的元件，解決真理（需要精確）和敘事（需要故事）之間的根本矛盾。
+> **One-line Positioning / 一句話定位：** Five physically separated components solving the fundamental contradiction between truth (needs precision) and narrative (needs stories). / 五個完全分開的元件，解決真理（需要精確）和敘事（需要故事）之間的根本矛盾。
 
 ---
 
-## 初衷 / Why
+## Why / 初衷
 
 **English:**
 
@@ -26,7 +24,7 @@ I wrote this article to define an architecture where truth and narrative are han
 
 ---
 
-## 初衷的由來 / Origin
+## Origin / 初衷的由來
 
 **English:**
 
@@ -42,7 +40,7 @@ These two requirements conflict. A single model trained on both will find shortc
 
 ---
 
-## 實戰成績 / Results
+## Results / 實戰成績
 
 **English:**
 
@@ -70,7 +68,7 @@ These two requirements conflict. A single model trained on both will find shortc
 
 ---
 
-## 可造成的結果 / Impact
+## Impact / 可造成的結果
 
 **English:**
 
@@ -92,7 +90,7 @@ The core principle — never let one component hold the power to define, create,
 
 ---
 
-## 理想與抱負 / Vision
+## Vision / 理想與抱負
 
 **English:**
 
@@ -104,8 +102,8 @@ Power must be separated. No single component should define what is true, create 
 
 ---
 
-**版本：** 2026-07-30
+**Version / 版本：** 2026-07-30
 
 ---
 
-**技術細節：** 原始章節目錄與狀態請見 [`TECHNICAL_INDEX.md`](TECHNICAL_INDEX.md)
+**Technical Details / 技術細節：** English technical index: [`TECHNICAL_INDEX.en.md`](TECHNICAL_INDEX.en.md) · 繁體中文技術索引：[`TECHNICAL_INDEX.md`](TECHNICAL_INDEX.md)

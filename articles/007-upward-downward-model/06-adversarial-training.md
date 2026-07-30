@@ -1,3 +1,7 @@
+[← 回到技術索引](TECHNICAL_INDEX.md) | [English](06-adversarial-training.en.md) | **繁體中文**
+
+---
+
 # 06｜真正對抗式雙模型
 
 > **成熟度：** PROVISIONAL（架構已定案；訓練尚未實作）

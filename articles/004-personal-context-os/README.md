@@ -1,16 +1,14 @@
-[← 回到文章總覽](../README.md)
+[← Back to Article Index / 回到文章總覽](../README.md)
 
 ---
 
-# 個人上下文作業系統（Personal Context OS）
+# Personal Context OS / 個人上下文作業系統
 
-**English title:** *Personal Context OS*
-
-> **一句話定位：** Not longer chat history — multiple independent Skills, a Clerk model, conflict gates, and execution specs that keep your AI assistant focused on what actually matters. / 不是更長的聊天歷史——而是多個可獨立維護的 Skills、一個紀事員模型、衝突處理機制、執行前凍結的規格書，讓你的 AI 助理永遠記得什麼才是真正重要的。
+> **One-line Positioning / 一句話定位：** Not longer chat history — multiple independent Skills, a Clerk model, conflict gates, and execution specs that keep your AI assistant focused on what actually matters. / 不是更長的聊天歷史——而是多個可獨立維護的 Skills、一個紀事員模型、衝突處理機制、執行前凍結的規格書，讓你的 AI 助理永遠記得什麼才是真正重要的。
 
 ---
 
-## 初衷 / Why
+## Why / 初衷
 
 **English:**
 
@@ -26,7 +24,7 @@ I wrote this article to define a better way: instead of saving longer conversati
 
 ---
 
-## 初衷的由來 / Origin
+## Origin / 初衷的由來
 
 **English:**
 
@@ -42,7 +40,7 @@ I realized that the solution is not to give the model a better memory. The solut
 
 ---
 
-## 實戰成績 / Results
+## Results / 實戰成績
 
 **English:**
 
@@ -60,7 +58,7 @@ I realized that the solution is not to give the model a better memory. The solut
 
 ---
 
-## 可造成的結果 / Impact
+## Impact / 可造成的結果
 
 **English:**
 
@@ -72,7 +70,7 @@ If fully implemented, this system changes the fundamental unit of AI interaction
 
 ---
 
-## 理想與抱負 / Vision
+## Vision / 理想與抱負
 
 **English:**
 
@@ -84,8 +82,8 @@ I do not need the model to remember everything forever. I need it to see the rig
 
 ---
 
-**版本：** 2026-07-30
+**Version / 版本：** 2026-07-30
 
 ---
 
-**技術細節：** 原始完整文章請見 [`FULL_ARTICLE.md`](FULL_ARTICLE.md)
+**Technical Details / 技術細節：** English full article: [`FULL_ARTICLE.en.md`](FULL_ARTICLE.en.md) · 繁體中文完整文章：[`FULL_ARTICLE.md`](FULL_ARTICLE.md)

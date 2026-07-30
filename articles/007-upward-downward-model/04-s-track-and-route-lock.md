@@ -1,7 +1,11 @@
-# 04｜S 賽道、Route Lock 與 State Lock
+[← 回到技術索引](TECHNICAL_INDEX.md) | [English](04-s-track-and-route-lock.en.md) | **繁體中文**
+
+---
+
+# 04｜S Track、Route Lock 與 State Lock
 
 > **成熟度：** SETTLED（工程概念已驗證）
-> **對應原始章節：** Part III（S 賽道概念）
+> **對應原始章節：** Part III（S Track 概念）
 
 ---
 
@@ -17,9 +21,9 @@
 
 ---
 
-## 4.2 S 賽道
+## 4.2 S Track
 
-S 賽道是**唯一被允許的正確執行路徑**。它由以下條件定義：
+S Track 是**唯一被允許的正確執行路徑**。它由以下條件定義：
 
 - 明確的 entry checkpoint（進入條件）
 - 明確的 exit checkpoint（退出條件）
@@ -27,13 +31,13 @@ S 賽道是**唯一被允許的正確執行路徑**。它由以下條件定義�
 - 明確的 fallback 排除規則
 - 明確的假路排除規則
 
-在 S 賽道被證明之前，所有數值分析都是 premature。
+在 S Track 被證明之前，所有數值分析都是 premature。
 
 ---
 
 ## 4.3 Route Lock
 
-Route Lock 是**封路機制**：鎖定 S 賽道，排除所有其他路徑。
+Route Lock 是**封路機制**：鎖定 S Track，排除所有其他路徑。
 
 Route Lock 的條件：
 
@@ -80,6 +84,6 @@ Reference Contract 是上行模型判斷「是否偏離目的」的依據。
 
 ## 4.6 封路之後，插針問題被降級
 
-一旦 S 賽道被鎖定、狀態被鎖定、契約被定義，插針問題就從「到處找 root cause」降級為「在已知路徑上找 first divergence」。
+一旦 S Track 被鎖定、狀態被鎖定、契約被定義，插針問題就從「到處找 root cause」降級為「在已知路徑上找 first divergence」。
 
-這正是四層 Truth Gate 的工程價值：**它不是限制 debug，而是把 debug 從盲目搜索變成精確定位。**
+這正是四層 Truth Gate 的工程價值：**它不是限制 debug，而是把 debug 從盲目搜尋變成精確定位。**

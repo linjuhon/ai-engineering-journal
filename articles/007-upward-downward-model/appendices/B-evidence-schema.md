@@ -1,3 +1,7 @@
+[← 回到技術索引](../TECHNICAL_INDEX.md) | [English](B-evidence-schema.en.md) | **繁體中文**
+
+---
+
 # 附錄 B：Evidence Schema
 
 > **成熟度：** PROVISIONAL（schema 需與實作同步更新）

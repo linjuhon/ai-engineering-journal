@@ -1,3 +1,7 @@
+[← 回到技術索引](TECHNICAL_INDEX.md) | [English](09-experiment-and-hardware-roadmap.en.md) | **繁體中文**
+
+---
+
 # 09｜實驗與硬體路線
 
 > **成熟度：** PENDING_EXPERIMENT（實驗設計已定案；硬體決策需實驗結果）

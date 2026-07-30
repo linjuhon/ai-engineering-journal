@@ -1,3 +1,7 @@
+[← 回到技術索引](../TECHNICAL_INDEX.md) | [English](A-contracts-and-schemas.en.md) | **繁體中文**
+
+---
+
 # 附錄 A：元件契約與 Schema
 
 > **成熟度：** PROVISIONAL（schema 需與實作同步更新）

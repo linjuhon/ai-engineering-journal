@@ -1,3 +1,7 @@
+[← 回到技術索引](../TECHNICAL_INDEX.md) | [English](C-decision-ledger.en.md) | **繁體中文**
+
+---
+
 # 附錄 C：決策簿
 
 > **成熟度：** SETTLED（記錄格式）；持續更新

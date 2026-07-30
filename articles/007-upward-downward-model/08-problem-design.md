@@ -1,3 +1,7 @@
+[← 回到技術索引](TECHNICAL_INDEX.md) | [English](08-problem-design.en.md) | **繁體中文**
+
+---
+
 # 08｜反向題目設計
 
 > **成熟度：** PROVISIONAL（題型已定義；工單生成需實驗）

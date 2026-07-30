@@ -1,16 +1,14 @@
-[← 回到文章總覽](../README.md)
+[← Back to Article Index / 回到文章總覽](../README.md)
 
 ---
 
-# 占星系統統一架構
+# Astrology System Unified Architecture / 占星系統統一架構
 
-**English title:** *Astrology System Unified Architecture*
-
-> **一句話定位：** An honest restructuring of a fragmented design document — separating design goals from verified results. / 把一份破碎、矛盾的設計文件，整理成誠實、可驗證的架構說明。
+> **One-line Positioning / 一句話定位：** An honest restructuring of a fragmented design document — separating design goals from verified results. / 把一份破碎、矛盾的設計文件，整理成誠實、可驗證的架構說明。
 
 ---
 
-## 初衷 / Why
+## Why / 初衷
 
 **English:**
 
@@ -26,7 +24,7 @@ I wrote this article to create a single source of truth that is honest about wha
 
 ---
 
-## 初衷的由來 / Origin
+## Origin / 初衷的由來
 
 **English:**
 
@@ -42,7 +40,7 @@ I spent significant effort restructuring it: removing duplicates, marking contra
 
 ---
 
-## 實戰成績 / Results
+## Results / 實戰成績
 
 **English:**
 
@@ -62,7 +60,7 @@ I spent significant effort restructuring it: removing duplicates, marking contra
 
 ---
 
-## 可造成的結果 / Impact
+## Impact / 可造成的結果
 
 **English:**
 
@@ -82,7 +80,7 @@ Any team building a similar multi-stage AI system can use this as a reference fo
 
 ---
 
-## 理想與抱負 / Vision
+## Vision / 理想與抱負
 
 **English:**
 
@@ -94,8 +92,8 @@ An architecture document should not be a wish list. It should be a contract: cle
 
 ---
 
-**版本：** 2026-07-30
+**Version / 版本：** 2026-07-30
 
 ---
 
-**技術細節：** 原始完整文章請見 [`FULL_ARTICLE.md`](FULL_ARTICLE.md)
+**Technical Details / 技術細節：** English full article: [`FULL_ARTICLE.en.md`](FULL_ARTICLE.en.md) · 繁體中文完整文章：[`FULL_ARTICLE.md`](FULL_ARTICLE.md)

@@ -1,16 +1,14 @@
-[← 回到文章總覽](../README.md)
+[← Back to Article Index / 回到文章總覽](../README.md)
 
 ---
 
-# 從答案生成器到全局智能
+# From Answer Generator to Global Intelligence / 從答案生成器到全局智能
 
-**English title:** *From Answer Generator to Global Intelligence*
-
-> **一句話定位：** A theory of why models get stuck doing the same thing over and over — and how to train them to recognize when it is time to switch methods. / 一套理論，解釋為什麼模型會一直重複做同一件事——以及如何訓練它們判斷什麼時候該換方法。
+> **One-line Positioning / 一句話定位：** A theory of why models get stuck doing the same thing over and over — and how to train them to recognize when it is time to switch methods. / 一套理論，解釋為什麼模型會一直重複做同一件事——以及如何訓練它們判斷什麼時候該換方法。
 
 ---
 
-## 初衷 / Why
+## Why / 初衷
 
 **English:**
 
@@ -26,7 +24,7 @@ I wrote this article to define what "intelligence" really means — not just pro
 
 ---
 
-## 初衷的由來 / Origin
+## Origin / 初衷的由來
 
 **English:**
 
@@ -42,7 +40,7 @@ This made me realize that the real gap in current AI is not knowledge or skill. 
 
 ---
 
-## 實戰成績 / Results
+## Results / 實戰成績
 
 **English:**
 
@@ -60,7 +58,7 @@ This made me realize that the real gap in current AI is not knowledge or skill. 
 
 ---
 
-## 可造成的結果 / Impact
+## Impact / 可造成的結果
 
 **English:**
 
@@ -80,7 +78,7 @@ If validated, this framework could change how we train models for long-horizon e
 
 ---
 
-## 理想與抱負 / Vision
+## Vision / 理想與抱負
 
 **English:**
 
@@ -92,8 +90,8 @@ True intelligence is not doing one thing better. It is knowing when to stop doin
 
 ---
 
-**版本：** 2026-07-30
+**Version / 版本：** 2026-07-30
 
 ---
 
-**技術細節：** 原始完整文章請見 [`FULL_ARTICLE.md`](FULL_ARTICLE.md)
+**Technical Details / 技術細節：** English full article: [`FULL_ARTICLE.en.md`](FULL_ARTICLE.en.md) · 繁體中文完整文章：[`FULL_ARTICLE.md`](FULL_ARTICLE.md)

@@ -1,4 +1,4 @@
-[← 回到本研究總綱](../README.md)
+[← 回到技術索引](../TECHNICAL_INDEX.md) | [English](37-first-lesson-data-flow.en.md) | **繁體中文**
 
 ---
 

@@ -1,16 +1,14 @@
-[← 回到文章總覽](../README.md)
+[← Back to Article Index / 回到文章總覽](../README.md)
 
 ---
 
-# 占星全技術棧學習路線圖
+# Astrology Full-Stack Deep Learning Roadmap / 占星全技術棧學習路線圖
 
-**English title:** *Astrology Full-Stack Deep Learning Roadmap*
-
-> **一句話定位：** A structured curriculum for mastering every technology in a multi-stack AI system — not just reading API docs, but being able to point to files, predict outputs, and write tests. / 一套有結構的課程，教你掌握多技術棧 AI 系統的每一層——不是讀 API 文件就好，而是要能指出檔案位置、預測輸出、寫出測試。
+> **One-line Positioning / 一句話定位：** A structured curriculum for mastering every technology in a multi-stack AI system — not just reading API docs, but being able to point to files, predict outputs, and write tests. / 一套有結構的課程，教你掌握多技術棧 AI 系統的每一層——不是讀 API 文件就好，而是要能指出檔案位置、預測輸出、寫出測試。
 
 ---
 
-## 初衷 / Why
+## Why / 初衷
 
 **English:**
 
@@ -26,7 +24,7 @@ I wrote this curriculum so that anyone — including myself — can have a clear
 
 ---
 
-## 初衷的由來 / Origin
+## Origin / 初衷的由來
 
 **English:**
 
@@ -38,11 +36,11 @@ I designed this curriculum based on my own experience of what actually works whe
 
 占星平台（第 2 篇文章描述的）需要很多種技術：TypeScript、Python、Swiss Ephemeris、TensorFlow、PostgreSQL、MongoDB、Redis、Elasticsearch、Pinecone、Neo4j、TimescaleDB、Docker、Kubernetes、Prometheus 等等。每一種都是一個獨立的領域。挑戰不是單獨學會每一種——而是理解它們如何一起運作。
 
-我根據自己的經驗設計了這套課程：學習一個新技術棧時真正有效的方法是——先建立心智模型、寫最小可執行程式碼、測試它、觀察它、然後教给别人。
+我根據自己的經驗設計了這套課程：學習一個新技術棧時真正有效的方法是——先建立心智模型、寫最小可執行程式碼、測試它、觀察它、然後教給別人。
 
 ---
 
-## 實戰成績 / Results
+## Results / 實戰成績
 
 **English:**
 
@@ -60,7 +58,7 @@ I designed this curriculum based on my own experience of what actually works whe
 
 ---
 
-## 可造成的結果 / Impact
+## Impact / 可造成的結果
 
 **English:**
 
@@ -78,7 +76,7 @@ This curriculum can be used as:
 
 ---
 
-## 理想與抱負 / Vision
+## Vision / 理想與抱負
 
 **English:**
 
@@ -90,8 +88,8 @@ Real learning is not reading API documentation. It is being able to point to the
 
 ---
 
-**版本：** 2026-07-30
+**Version / 版本：** 2026-07-30
 
 ---
 
-**技術細節：** 原始章節目錄與狀態請見 [`TECHNICAL_INDEX.md`](TECHNICAL_INDEX.md)
+**Technical Details / 技術細節：** English technical index: [`TECHNICAL_INDEX.en.md`](TECHNICAL_INDEX.en.md) · 繁體中文技術索引：[`TECHNICAL_INDEX.md`](TECHNICAL_INDEX.md)

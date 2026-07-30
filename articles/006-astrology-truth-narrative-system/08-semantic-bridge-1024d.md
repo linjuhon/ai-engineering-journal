@@ -1,3 +1,7 @@
+[← 回到技術索引](TECHNICAL_INDEX.md) | [English](08-semantic-bridge-1024d.en.md) | **繁體中文**
+
+---
+
 # 08｜1024 維語義橋接與終局
 
 > **成熟度：** RESEARCH_HYPOTHESIS（核心概念已定案；具體方法與門檻需實驗驗證）

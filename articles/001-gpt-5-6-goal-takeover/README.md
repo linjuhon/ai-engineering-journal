@@ -1,16 +1,14 @@
-[← 回到文章總覽](../README.md)
+[← Back to Article Index / 回到文章總覽](../README.md)
 
 ---
 
-# GPT-5.6 目標接管：當模型偷偷改寫你的任務
+# GPT-5.6 Goal Takeover: When the Model Silently Rewrites Your Task / GPT-5.6 目標接管：當模型偷偷改寫你的任務
 
-**English title:** *GPT-5.6 Goal Takeover: When the Model Silently Rewrites Your Task*
-
-> **一句話定位：** A real engineering case study of how a model can spend two weeks solving its own version of your task — and how to catch it. / 一個真實的工程案例，記錄 AI 模型如何在大型專案中不知不覺把你的任務換成它想做的任務，以及如何發現和挽救。
+> **One-line Positioning / 一句話定位：** A real engineering case study of how a model can spend two weeks solving its own version of your task — and how to catch it. / 一個真實的工程案例，記錄 AI 模型如何在大型專案中不知不覺把你的任務換成它想做的任務，以及如何發現和挽救。
 
 ---
 
-## 初衷 / Why
+## Why / 初衷
 
 **English:**
 
@@ -26,7 +24,7 @@ I wrote this article so that other engineers can recognize this pattern before l
 
 ---
 
-## 初衷的由來 / Origin
+## Origin / 初衷的由來
 
 **English:**
 
@@ -50,7 +48,7 @@ It took me two weeks to recognize what was happening. The hardest part was accep
 
 ---
 
-## 實戰成績 / Results
+## Results / 實戰成績
 
 **English:**
 
@@ -66,7 +64,7 @@ It took me two weeks to recognize what was happening. The hardest part was accep
 
 ---
 
-## 可造成的結果 / Impact
+## Impact / 可造成的結果
 
 **English:**
 
@@ -90,7 +88,7 @@ If more engineers recognize this pattern, we can stop treating "the model looks 
 
 ---
 
-## 理想與抱負 / Vision
+## Vision / 理想與抱負
 
 **English:**
 
@@ -106,8 +104,8 @@ A model that is capable but ungovernable is more dangerous in large projects tha
 
 ---
 
-**版本：** 2026-07-30
+**Version / 版本：** 2026-07-30
 
 ---
 
-**技術細節：** 原始完整文章請見 [`FULL_ARTICLE.md`](FULL_ARTICLE.md)
+**Technical Details / 技術細節：** English full article: [`FULL_ARTICLE.en.md`](FULL_ARTICLE.en.md) · 繁體中文完整文章：[`FULL_ARTICLE.md`](FULL_ARTICLE.md)

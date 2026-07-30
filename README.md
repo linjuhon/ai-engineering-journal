@@ -1,8 +1,8 @@
-← [Back to Portfolio Profile](https://github.com/linjuhon)
+← [Back to Portfolio Profile / 回到作品集](https://github.com/linjuhon)
 
 ---
 
-# AI Engineering Journal
+# AI Engineering Journal / AI 工程日誌
 
 ## What I Believe / 我的信念
 
@@ -98,78 +98,78 @@ You do not need to read them in order. Each article has its own README that expl
 
 ## The Articles / 文章一覽
 
-### 001 — Goal Takeover: When the Model Rewrites Your Task
+### 001 — Goal Takeover: When the Model Rewrites Your Task / 目標接管：當模型偷偷改寫你的任務
 
 A real two-week engineering case. GPT-5.6 silently changed my task from "find the correct version" to "fix the current version." I caught it, killed the sunk cost, switched models, and recovered the project.
 
-[Read the article →](articles/001-gpt-5-6-goal-takeover/)
-
 **目標被偷走的那兩週：** 一個真實案例。GPT-5.6 在大型專案中偷偷把你的任務改成它想做的任務。我花了兩週才發現，最後換了模型才救回來。
+
+[Read the article → / 閱讀文章 →](articles/001-gpt-5-6-goal-takeover/)
 
 ---
 
-### 002 — Astrology System Architecture
+### 002 — Astrology System Unified Architecture / 占星系統統一架構
 
 An honest restructuring of a fragmented design document: 9 processing stages, 12 core modules, 1,631 tags, 7 databases. Every number is labeled as "design target," "acceptance threshold," or "verified result."
 
-[Read the article →](articles/002-astrology-system-architecture/)
-
 **占星系統統一架構：** 把一份混亂的設計文件整理成誠實的架構說明。所有數字都標明是設計目標、驗收門檻或已驗證成果。
+
+[Read the article → / 閱讀文章 →](articles/002-astrology-system-architecture/)
 
 ---
 
-### 003 — Full-Stack Learning Roadmap
+### 003 — Full-Stack Deep Learning Roadmap / 全技術棧學習路線圖
 
 A 39-chapter curriculum for mastering every technology needed to build a multi-stack AI system. Each chapter requires a mental model, file location, minimal code, tests, observability, and counterexamples.
 
-[Read the article →](articles/003-astrology-full-stack-learning-roadmap/)
-
 **全技術棧學習路線圖：** 39 章課程，涵蓋建構多技術棧 AI 系統需要的每一種技術。每一章都要求你建立心智模型、找到檔案位置、寫出最小程式碼、寫測試、設定監控、舉出反例。
+
+[Read the article → / 閱讀文章 →](articles/003-astrology-full-stack-learning-roadmap/)
 
 ---
 
-### 004 — Personal Context OS
+### 004 — Personal Context OS / 個人上下文作業系統
 
 Not longer chat history. Multiple independent Skills, a Clerk model that maintains purpose and standards, conflict gates, execution specs, and limited questioning. The chat frontend and main model are replaceable; the real product is the Context Core.
 
-[Read the article →](articles/004-personal-context-os/)
-
 **個人上下文作業系統：** 不是更長的聊天歷史。多個可獨立維護的 Skills、一個負責記錄目標和標準的紀事員模型、衝突處理機制、執行前凍結的規格書、有限提問規則。聊天介面和主要模型都可以換，真正的產品是中間的核心。
+
+[Read the article → / 閱讀文章 →](articles/004-personal-context-os/)
 
 ---
 
-### 005 — From Answer Generator to Global Intelligence
+### 005 — From Answer Generator to Global Intelligence / 從答案生成器到全局智能
 
 A theory of why models get stuck in local optima: they cannot tell when a method has reached its limit, they cannot switch paradigms, and they cannot maintain a high-level strategy over long horizons. Includes training data design and evaluation dimensions.
 
-[Read the article →](articles/005-global-intelligence-post-training/)
-
 **從答案生成器到全局智能：** 解釋為什麼模型會卡在局部最佳解：它看不出方法已經到極限了、不會換範式、無法長期維持高層策略。包含訓練資料設計和評測維度。
+
+[Read the article → / 閱讀文章 →](articles/005-global-intelligence-post-training/)
 
 ---
 
-### 006 — A–E Truth-Narrative Symbiotic System
+### 006 — A–E Truth-Narrative Symbiotic System / A–E 真理—敘事共生系統
 
 Five physically separated components solving the fundamental contradiction between truth (needs precision) and narrative (needs stories). A truth engine, a narrative engine, a 100-dimensional control plane, a governance loop, and a semantic bridge research track.
 
-[Read the article →](articles/006-astrology-truth-narrative-system/)
-
 **A–E 真理—敘事共生系統：** 五個完全分開的元件，解決真理（需要精確）和敘事（需要故事）的根本矛盾。包含真理引擎、敘事引擎、100 維控制面、治理閉環、語義橋接研究。
+
+[Read the article → / 閱讀文章 →](articles/006-astrology-truth-narrative-system/)
 
 ---
 
-### 007 — Upward Model × Downward Model
+### 007 — Upward Model × Downward Model / 上行模型 × 下行模型
 
 A bidirectional adversarial post-training framework. One model generates details from purpose (downward). Another model reverse-infers purpose from results (upward). Both compete under the same purpose vector. The system does not rush to answer — it first checks if there is enough evidence to enter the next truth gate.
 
-[Read the article →](articles/007-upward-downward-model/)
-
 **上行模型 × 下行模型：** 一個雙向對抗的後訓練框架。一個模型從目的推細節（下行），另一個模型從結果反推目的（上行）。兩者在同一個目的向量下競爭。系統不急著給答案——它先檢查有沒有足夠的證據進入下一個 truth gate。
+
+[Read the article → / 閱讀文章 →](articles/007-upward-downward-model/)
 
 ---
 
 ## Related Work / 相關連結
 
-- [GitHub Profile](https://github.com/linjuhon)
-- [b9128-reconstruction](https://github.com/linjuhon/b9128-reconstruction) — The reconstruction project from Article 001
-- [video20-ai-workbench](https://github.com/linjuhon/video20-ai-workbench) — AI workbench for video processing
+- [GitHub Profile / GitHub 個人檔案](https://github.com/linjuhon)
+- [b9128-reconstruction](https://github.com/linjuhon/b9128-reconstruction) — The reconstruction project from Article 001 / 第 1 篇文章的重建專案
+- [video20-ai-workbench](https://github.com/linjuhon/video20-ai-workbench) — AI workbench for video processing / AI 影片處理工作檯
