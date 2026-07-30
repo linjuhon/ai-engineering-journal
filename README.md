@@ -173,3 +173,4 @@ A bidirectional adversarial post-training framework. One model generates details
 - [GitHub Profile / GitHub 個人檔案](https://github.com/linjuhon)
 - [b9128-reconstruction](https://github.com/linjuhon/b9128-reconstruction) — The reconstruction project from Article 001 / 第 1 篇文章的重建專案
 - [video20-ai-workbench](https://github.com/linjuhon/video20-ai-workbench) — AI workbench for video processing / AI 影片處理工作檯
+- [Local Code Intelligence Toolkit](https://github.com/linjuhon/local-code-intelligence-toolkit) — Local SQLite code intelligence and MCP retrieval for AI-assisted engineering / 給 AI 工程工作流使用的本地程式碼索引與 MCP 查詢工具
