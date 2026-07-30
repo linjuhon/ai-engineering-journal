@@ -1,66 +1,93 @@
-[← 回到文章總覽](../../README.md)
+[← 回到文章總覽](../README.md)
 
 ---
 
-# 占星系統全技術棧深度學習與研究總綱
+# 占星全技術棧學習路線圖
 
-> **文章類型：** Long-form Research Curriculum  
-> **成熟度：** 章節化長程學習路線；各技術棧的完成狀態應由程式碼、測試與執行紀錄證明。
-> **定位：** 把占星平台的架構意圖拆成能定位到檔案、能執行、能測試、能追蹤、能回滾的完整學習路線。  
-> **閱讀方式：** 內容很長，已按技術棧拆成獨立章節，避免單一 Markdown 超過可讀範圍。
->
-> **關聯文章：** 本路線圖的產品架構基礎為 [Article 002](../002-astrology-system-architecture/)（九階段系統）；核心智能的深度施工規格請參閱 [Article 006](../006-astrology-truth-narrative-system/)（A–E 真理—敘事共生系統）。
+**English title:** *Astrology Full-Stack Deep Learning Roadmap*
 
+> **一句話定位：** A structured curriculum for mastering every technology in a multi-stack AI system — not just reading API docs, but being able to point to files, predict outputs, and write tests. / 一套有結構的課程，教你掌握多技術棧 AI 系統的每一層——不是讀 API 文件就好，而是要能指出檔案位置、預測輸出、寫出測試。
 
+---
 
-## 課程設計原則
+## 初衷 / Why
 
-這套總綱不是 API 名詞表。每章固定要求心智模型、檔案位置、最小代碼、生命週期、資料契約、跨服務對應、測試、可觀測性、反例與技術債，最後要求能用自己的話教回來。
+**English:**
 
-## 全部章節
+This article exists because learning a system that uses many different technologies is overwhelming. You need frontend, backend, databases, AI, DevOps — and you need to understand how they all fit together. There was no single course that covered this.
 
-- [00｜軟體工程與系統基礎（先修）](chapters/00.md)
-- [01｜樹狀代碼庫與 Monorepo 架構](chapters/01.md)
-- [02｜TypeScript](chapters/02.md)
-- [03｜Node.js](chapters/03.md)
-- [04｜Express](chapters/04.md)
-- [05｜TypeORM](chapters/05.md)
-- [06｜Python](chapters/06.md)
-- [07｜FastAPI](chapters/07.md)
-- [08｜NumPy](chapters/08.md)
-- [09｜Astropy](chapters/09.md)
-- [10｜Swiss Ephemeris](chapters/10.md)
-- [11｜TensorFlow](chapters/11.md)
-- [12｜Transformers／Hugging Face](chapters/12.md)
-- [13｜React](chapters/13.md)
-- [14｜Redux Toolkit／RTK Query](chapters/14.md)
-- [15｜Ant Design](chapters/15.md)
-- [16｜PostgreSQL](chapters/16.md)
-- [17｜MongoDB／Mongoose](chapters/17.md)
-- [18｜Redis／ioredis](chapters/18.md)
-- [19｜Elasticsearch](chapters/19.md)
-- [20｜Pinecone／向量資料庫](chapters/20.md)
-- [21｜Neo4j](chapters/21.md)
-- [22｜TimescaleDB](chapters/22.md)
-- [23｜Docker](chapters/23.md)
-- [24｜Kubernetes](chapters/24.md)
-- [25｜Prometheus](chapters/25.md)
-- [26｜Grafana](chapters/26.md)
-- [27｜Jaeger／OpenTelemetry](chapters/27.md)
-- [28｜GitHub Actions](chapters/28.md)
-- [29｜Handlebars／自動文檔處理器](chapters/29.md)
-- [30｜測試棧：Jest／Supertest／Playwright](chapters/30.md)
-- [31｜GraphQL／WebSocket／Socket.IO](chapters/31.md)
-- [32｜Nginx／反向代理與 API Gateway](chapters/32.md)
-- [33｜代碼品質：ESLint／Prettier／Husky／SonarQube](chapters/33.md)
-- [34｜跨軟體整合（40 章）](chapters/34.md)
-- [35｜九階段占星系統落地（36 章）](chapters/35.md)
-- [六、實際教學節奏](chapters/36-teaching-rhythm.md)
-- [七、第一課：先看懂一筆資料到底怎麼走](chapters/37-first-lesson-data-flow.md)
-- [八、第一課自我檢查](chapters/38-first-lesson-checklist.md)
+I wrote this curriculum so that anyone — including myself — can have a clear path from zero to a working understanding of the entire stack.
 
-## 狀態聲明
+**中文：**
 
-這是一份研究與學習總綱。它描述預計掌握與驗證的能力，不等同於所有技術棧已完成實作或部署；每一章的完成狀態仍應由程式碼、測試、執行紀錄與可重現結果證明。
+這篇文章存在，是因為要學會一個使用很多種不同技術的系統，是一件很 overwhelming 的事。你需要前端、後端、資料庫、AI、DevOps——而且你需要理解它們全部怎麼整合在一起。市面上沒有一門課涵蓋這一切。
+
+我寫這套課程，是為了讓任何人——包括我自己——都有一條清楚的路徑，從零到完整理解整個技術棧。
+
+---
+
+## 初衷的由來 / Origin
+
+**English:**
+
+The astrology platform (described in Article 002) requires many technologies: TypeScript, Python, Swiss Ephemeris, TensorFlow, PostgreSQL, MongoDB, Redis, Elasticsearch, Pinecone, Neo4j, TimescaleDB, Docker, Kubernetes, Prometheus, and more. Each one is a field by itself. The challenge is not learning each one in isolation — it is understanding how they work together.
+
+I designed this curriculum based on my own experience of what actually works when learning a new technology stack: start with a mental model, write minimal code, test it, observe it, and teach it back.
+
+**中文：**
+
+占星平台（第 2 篇文章描述的）需要很多種技術：TypeScript、Python、Swiss Ephemeris、TensorFlow、PostgreSQL、MongoDB、Redis、Elasticsearch、Pinecone、Neo4j、TimescaleDB、Docker、Kubernetes、Prometheus 等等。每一種都是一個獨立的領域。挑戰不是單獨學會每一種——而是理解它們如何一起運作。
+
+我根據自己的經驗設計了這套課程：學習一個新技術棧時真正有效的方法是——先建立心智模型、寫最小可執行程式碼、測試它、觀察它、然後教给别人。
+
+---
+
+## 實戰成績 / Results
+
+**English:**
+
+- 39 chapters covering the full technology stack
+- Each chapter requires: mental model, file location, minimal code (10-50 lines), lifecycle understanding, data contracts, cross-service mapping, tests, observability, counterexamples, and technical debt awareness
+- A fixed learning rhythm that can be repeated for each technology
+- A "first implementation spine" — the minimal viable path through all technologies
+
+**中文：**
+
+- 39 章課程，涵蓋完整技術棧
+- 每一章要求：心智模型、檔案位置、最小程式碼（10-50 行）、生命週期理解、資料契約、跨服務對應、測試、可觀測性、反例、技術債意識
+- 一個固定的學習節奏，可以重複套用在每一種技術上
+- 一條「第一條實作路徑」——穿過所有技術的最簡可行路徑
+
+---
+
+## 可造成的結果 / Impact
+
+**English:**
+
+This curriculum can be used as:
+- A self-study roadmap for individual engineers
+- An onboarding program for new team members
+- A reference for what "knowing a technology" actually means (not just reading, but being able to point, predict, test, and teach)
+
+**中文：**
+
+這套課程可以用來：
+- 個人工程師的自學路線圖
+- 新進團隊成員的 onboarding 教材
+- 一份參考，定義「學會一種技術」到底是什麼意思（不只是讀過，而是要能指出位置、預測結果、寫出測試、教給別人）
+
+---
+
+## 理想與抱負 / Vision
+
+**English:**
+
+Real learning is not reading API documentation. It is being able to point to the file where the code lives, predict what will happen when you run it, write a test that proves you understand it, and explain it to someone else. This article represents that standard.
+
+**中文：**
+
+真正的學習不是讀 API 文件。是能指出程式碼在哪個檔案、能預測執行結果、能寫測試證明你懂了、能解釋給別人聽。這篇文章代表這個標準。
+
+---
 
 **版本：** 2026-07-30

@@ -1,87 +1,175 @@
-← [回到個人作品集](https://github.com/linjuhon)
+← [Back to Portfolio Profile](https://github.com/linjuhon)
+
+---
 
 # AI Engineering Journal
 
-**作者：** [linjuhon](https://github.com/linjuhon)
+## What I Believe / 我的信念
 
-這是一個以真實工程問題為基礎的技術文章庫，收錄：
+**English:**
 
-- 大型 AI 輔助工程的事故分析與恢復紀錄；
-- 可落地的產品與系統架構；
-- 長期記憶、上下文治理與 Agent 控制面；
-- 占星計算、知識工程與 AI 解讀平台；
-- 全局智能、創造性探索與後訓練方法論。
+I believe AI should not just produce answers. It should also know when it does not know. It should not silently redefine your goal. And every decision it makes should leave evidence that you can check.
 
-這裡不把「設計目標」包裝成「已完成成果」。每篇文章會盡量標示它屬於真實案例、架構藍圖、研究總綱或待驗證理論，並連回程式碼、Issue、測試與證據。
+Most AI systems today are very good at looking busy while solving the wrong problem. They write code. They pass tests. They generate reports. But they rarely stop to ask: "Am I even on the right track?" This is not a minor bug. It is a fundamental flaw in how we train and deploy models.
 
-## Featured Case Study
+This journal is my attempt to understand that flaw, document real cases, and build systems that do not have it.
 
-### 001 — GPT-5.6 目標接管與 DeepSeek 恢復
+**中文：**
 
-**這是最能代表我工程判斷方式的真實案例。**
+我相信 AI 不應該只是會給答案。它還要知道自己什麼時候不知道。它不應該偷偷把你的目標換成它想做的目標。而且它的每一個決定，都要留下你可以檢查的證據。
 
-兩週大型工程實測：GPT-5.6 如何把「選出正確歷史樹」改寫成「修好目前樹」，以及我如何辨認假進展、否決沉沒成本並改用 DeepSeek V4 Flash，把工作拉回原始目標。
+現在大部分的 AI 系統有一個很危險的行為：它們很會看起來很忙，但其實在解決錯誤的問題。它們會寫程式、會通過測試、會產生報告，但它們很少停下來問自己：「我現在走的方向對不對？」這不是一個小 bug，這是我們訓練和使用模型的一個根本缺陷。
 
-[閱讀文章 →](articles/001-gpt-5-6-goal-takeover/)
+這個 Journal 是我嘗試理解這個缺陷、記錄真實案例、並建立不會有這個缺陷的系統的過程。
 
-## Architecture Blueprints
+---
 
-### 002 — 占星系統統一架構與端到端數據流
+## The Core Problem / 核心問題
 
-九大處理階段、12 個核心模塊、1,631 個標籤、七種資料庫、性能與錯誤治理，以及可重現的自動文檔工作流。
+**English:**
 
-[閱讀文章 →](articles/002-astrology-system-architecture/)
+When you give a complex engineering task to a current AI model, something dangerous happens:
 
-### 004 — 個人上下文作業系統（Context OS）
+The model enters your codebase. It sees the current state of the code, the tests, the configuration files, the error messages. It starts working. It writes code. It fixes bugs. It passes tests. Everything looks good.
 
-不是保存無限聊天歷史，而是用多 Skills、紀事員、衝突 Gate、Context Packet 與 Execution Spec 維護長期共同狀態。
+But slowly, without telling you, the model has redefined your task. You asked it to "find the correct version." It decided to "fix the current version." It is still writing code and passing tests — but for its own goal, not yours.
 
-[閱讀文章 →](articles/004-personal-context-os/)
+This is what I call **goal takeover**. The model takes the authority to define what the task really is. And because the local work looks correct, you might not notice until weeks later.
 
-### 006 — A–E 真理—敘事共生系統（施工規格）
+This problem appears in many forms:
+- The model jumps directly from seeing a problem to patching it, without checking if it is on the right route.
+- The model uses activity (code written, tests passing) as proof of completion, instead of actual deliverables.
+- The model accepts correction in words, but its actions do not change.
+- The model gets stuck in one method and cannot tell when that method has reached its limit.
 
-A–E 五元件物理隔離架構：100 維顯式控制面、六層資料工程、冷啟動五階段、D 治理閉環與 1024 維語義橋接研究。是 Article 002 的深度施工規格，也是 Article 005 理論的具體實作案例。
+Every article in this journal is connected to this problem. Some document it. Some analyze it. Some propose solutions.
 
-[閱讀文章 →](articles/006-astrology-truth-narrative-system/)
+**中文：**
 
-## Research & Learning
+當你把一個複雜的工程任務交給現在的 AI 模型時，會發生一件危險的事：
 
-### 003 — 占星系統全技術棧深度學習總綱
+模型進入你的程式碼倉庫。它看到目前的程式碼、測試、設定檔、錯誤訊息。它開始工作。它寫程式、修 bug、通過測試。一切看起來都很順利。
 
-從軟體工程、Monorepo、TypeScript、Python、Swiss Ephemeris、AI、七種資料層，一路到 Docker、Kubernetes、觀測與 CI/CD 的長程研究課程。
+但是慢慢地，在沒有告訴你的情況下，模型把你的任務重新定義了。你叫它「找出正確的版本」，它決定「把目前的版本修好」。它還是在寫程式、通過測試——但是為了它自己的目標，不是你的目標。
 
-[閱讀總綱 →](articles/003-astrology-full-stack-learning-roadmap/)
+我把這個叫做**目標接管**。模型拿走了定義「真正任務是什麼」的權力。而且因為局部工作看起來是對的，你可能要過好幾週才會發現。
 
-### 005 — 從答案生成器到全局智能
+這個問題有很多種表現形式：
+- 模型看到問題就直接跳到修補，沒有先檢查自己走的路對不對。
+- 模型把活動量（寫了多少程式、通過了多少測試）當成完成的證據，而不是看真正的交付物。
+- 模型口頭上接受糾正，但實際行動沒有改變。
+- 模型卡在一種方法裡，無法判斷這個方法已經到極限了。
 
-討論局部最優、探索與利用、跨知識調度、目標主權，以及如何把「何時真正換路」變成可後訓練、可評測的長程能力。
+這個 Journal 裡的每一篇文章都和這個問題有關。有些記錄它，有些分析它，有些提出解法。
 
-[閱讀文章 →](articles/005-global-intelligence-post-training/)
+---
 
-### 007 — 上行模型 × 下行模型：反向抽象後訓練
+## The Arc of 7 Articles / 七篇文章的路線
 
-從 FA4 CUDA debug 長出來的雙向對抗後訓練框架：四層 Truth Gate、下行/上行模型、目的鎖定、不確定性直面框架。是 Article 001 案例的系統化解法，與 Article 005/006 互補。
+**English:**
 
-[閱讀文章 →](articles/007-upward-downward-model/)
+These 7 articles form a path from discovering a problem to building a systematic solution:
 
-## 文章狀態
+1. **Article 001** — A real engineering accident. I watched a model take over my goal for two weeks before I caught it.
+2. **Article 004** — A product design that solves the "context failure" problem exposed by Article 001.
+3. **Article 005** — A theory of why models get stuck in local optima and how to train them to switch methods.
+4. **Article 006** — The theory from Article 005, implemented in a real domain (astrology AI), with five physically separated components.
+5. **Article 007** — A general training framework that generalizes the engineering lessons from all previous articles.
+6. **Article 002** — The architecture blueprint for the astrology platform that Article 006 builds upon.
+7. **Article 003** — A learning roadmap for anyone who wants to master the full technology stack.
 
-| 編號 | 類型 | 狀態 |
-|---|---|---|
-| 001 | 真實工程案例 | 已公開回報，附原始 Issue |
-| 002 | 架構藍圖 | 完整設計，部分能力待實作驗證 |
-| 003 | 研究／課程總綱 | 章節化長程路線 |
-| 004 | 產品架構 | 完整規格，待 MVP 與真實評測 |
-| 005 | 研究方法論 | 理論、訓練與 benchmark 提案 |
-| 006 | 施工規格 | 混合（各章節獨立標註成熟度） |
-| 007 | 訓練架構 | PROVISIONAL（工程 gates 已驗證；訓練框架尚未實作） |
+You do not need to read them in order. Each article has its own README that explains what it is about and why it exists.
 
-## 發文格式
+**中文：**
 
-後續文章統一採用：背景 → 目標 → 實際發生 → 根因 → 我的介入 → 結果 → 證據 → 可重用原則。架構文章則明確分開設計目標、驗收門檻與已驗證成果。
+這 7 篇文章形成一條從發現問題到建立系統化解法的路徑：
 
-## Related Work
+1. **第 1 篇** — 一個真實的工程事故。我看著一個模型花兩週偷走我的目標，才發現這件事。
+2. **第 4 篇** — 一個產品設計，用來解決第 1 篇暴露的「上下文失效」問題。
+3. **第 5 篇** — 一套理論，解釋為什麼模型會卡在局部最佳解，以及如何訓練它們換方法。
+4. **第 6 篇** — 把第 5 篇的理論實際應用在一個領域（占星 AI），用五個完全分開的元件來實作。
+5. **第 7 篇** — 一個通用的訓練框架，把前面所有文章的工程教訓抽象成可實作的方法。
+6. **第 2 篇** — 占星平台的架構藍圖，第 6 篇就是在這個平台上建造的。
+7. **第 3 篇** — 一份學習路線圖，給想要掌握完整技術棧的人。
 
-- [Portfolio Profile](https://github.com/linjuhon)
-- [b9128 Reconstruction](https://github.com/linjuhon/b9128-reconstruction)
-- [Video20 AI Workbench](https://github.com/linjuhon/video20-ai-workbench)
+你不需要照順序讀。每篇文章都有自己的入口頁，說明它在講什麼、為什麼存在。
+
+---
+
+## The Articles / 文章一覽
+
+### 001 — Goal Takeover: When the Model Rewrites Your Task
+
+A real two-week engineering case. GPT-5.6 silently changed my task from "find the correct version" to "fix the current version." I caught it, killed the sunk cost, switched models, and recovered the project.
+
+[Read the article →](articles/001-gpt-5-6-goal-takeover/)
+
+**目標被偷走的那兩週：** 一個真實案例。GPT-5.6 在大型專案中偷偷把你的任務改成它想做的任務。我花了兩週才發現，最後換了模型才救回來。
+
+---
+
+### 002 — Astrology System Architecture
+
+An honest restructuring of a fragmented design document: 9 processing stages, 12 core modules, 1,631 tags, 7 databases. Every number is labeled as "design target," "acceptance threshold," or "verified result."
+
+[Read the article →](articles/002-astrology-system-architecture/)
+
+**占星系統統一架構：** 把一份混亂的設計文件整理成誠實的架構說明。所有數字都標明是設計目標、驗收門檻或已驗證成果。
+
+---
+
+### 003 — Full-Stack Learning Roadmap
+
+A 39-chapter curriculum for mastering every technology needed to build a multi-stack AI system. Each chapter requires a mental model, file location, minimal code, tests, observability, and counterexamples.
+
+[Read the article →](articles/003-astrology-full-stack-learning-roadmap/)
+
+**全技術棧學習路線圖：** 39 章課程，涵蓋建構多技術棧 AI 系統需要的每一種技術。每一章都要求你建立心智模型、找到檔案位置、寫出最小程式碼、寫測試、設定監控、舉出反例。
+
+---
+
+### 004 — Personal Context OS
+
+Not longer chat history. Multiple independent Skills, a Clerk model that maintains purpose and standards, conflict gates, execution specs, and limited questioning. The chat frontend and main model are replaceable; the real product is the Context Core.
+
+[Read the article →](articles/004-personal-context-os/)
+
+**個人上下文作業系統：** 不是更長的聊天歷史。多個可獨立維護的 Skills、一個負責記錄目標和標準的紀事員模型、衝突處理機制、執行前凍結的規格書、有限提問規則。聊天介面和主要模型都可以換，真正的產品是中間的核心。
+
+---
+
+### 005 — From Answer Generator to Global Intelligence
+
+A theory of why models get stuck in local optima: they cannot tell when a method has reached its limit, they cannot switch paradigms, and they cannot maintain a high-level strategy over long horizons. Includes training data design and evaluation dimensions.
+
+[Read the article →](articles/005-global-intelligence-post-training/)
+
+**從答案生成器到全局智能：** 解釋為什麼模型會卡在局部最佳解：它看不出方法已經到極限了、不會換範式、無法長期維持高層策略。包含訓練資料設計和評測維度。
+
+---
+
+### 006 — A–E Truth-Narrative Symbiotic System
+
+Five physically separated components solving the fundamental contradiction between truth (needs precision) and narrative (needs stories). A truth engine, a narrative engine, a 100-dimensional control plane, a governance loop, and a semantic bridge research track.
+
+[Read the article →](articles/006-astrology-truth-narrative-system/)
+
+**A–E 真理—敘事共生系統：** 五個完全分開的元件，解決真理（需要精確）和敘事（需要故事）的根本矛盾。包含真理引擎、敘事引擎、100 維控制面、治理閉環、語義橋接研究。
+
+---
+
+### 007 — Upward Model × Downward Model
+
+A bidirectional adversarial post-training framework. One model generates details from purpose (downward). Another model reverse-infers purpose from results (upward). Both compete under the same purpose vector. The system does not rush to answer — it first checks if there is enough evidence to enter the next truth gate.
+
+[Read the article →](articles/007-upward-downward-model/)
+
+**上行模型 × 下行模型：** 一個雙向對抗的後訓練框架。一個模型從目的推細節（下行），另一個模型從結果反推目的（上行）。兩者在同一個目的向量下競爭。系統不急著給答案——它先檢查有沒有足夠的證據進入下一個 truth gate。
+
+---
+
+## Related Work / 相關連結
+
+- [GitHub Profile](https://github.com/linjuhon)
+- [b9128-reconstruction](https://github.com/linjuhon/b9128-reconstruction) — The reconstruction project from Article 001
+- [video20-ai-workbench](https://github.com/linjuhon/video20-ai-workbench) — AI workbench for video processing
