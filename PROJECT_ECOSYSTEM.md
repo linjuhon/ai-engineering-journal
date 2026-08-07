@@ -29,7 +29,7 @@ AI Engineering Journal
 | `ai-engineering-journal` | 整體理念、文章與作品導覽 | 是 | `main` |
 | `local-code-intelligence-toolkit` | 本機程式碼索引與 AI 查詢工具 | 是 | 產品 repo 的 `main`／release |
 | `ai-collaboration-forensics` | 跨專案聊天鑑識、方法論與研究成果 | 是 | 經 allowlist 產生的發布候選，不是整個本機工作區 |
-| `tri-100r-rebuild` | TRI-100R 正式重建成果 | 是，應有專屬 repo | 提交 `06d2d4f` 的發布樹 |
+| [`tri-100r-rebuild`](https://github.com/linjuhon/tri-100r-reconstruction) | TRI-100R 正式重建成果 | 是 | 提交 `06d2d4f` 的發布樹 |
 | `extreme-optimization-reconstruction` | TRI-100R 早期 packet 流程與仍未提交的開發現場 | 否 | 保留本機，不當正式發布版本 |
 | `tri100r-clean-06d2d4f` | TRI-100R 提交 `06d2d4f` 的乾淨驗證副本 | 否 | 僅供比對、驗收與復現 |
 

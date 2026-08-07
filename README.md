@@ -189,3 +189,4 @@ are working copies rather than separate projects.
 - [video20-ai-workbench](https://github.com/linjuhon/video20-ai-workbench) — AI workbench for video processing / AI 影片處理工作檯
 - [Local Code Intelligence Toolkit](https://github.com/linjuhon/local-code-intelligence-toolkit) — Local SQLite code intelligence and MCP retrieval for AI-assisted engineering / 給 AI 工程工作流使用的本地程式碼索引與 MCP 查詢工具
 - [AI Collaboration Forensics](https://github.com/linjuhon/ai-collaboration-forensics) — Deidentified evidence and research on long-running AI collaboration / 長期 AI 協作的去識別證據與研究整理
+- [TRI-100R Reconstruction](https://github.com/linjuhon/tri-100r-reconstruction) — Traceable reconstruction of the extreme-optimization collaboration record / 極限優化協作紀錄的可追溯重建
