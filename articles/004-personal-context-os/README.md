@@ -4,7 +4,7 @@
 
 # Personal Context OS / 個人上下文作業系統
 
-> **One-line Positioning / 一句話定位：** Not longer chat history — multiple independent Skills, a Clerk model, conflict gates, and execution specs that keep your AI assistant focused on what actually matters. / 不是更長的聊天歷史——而是多個可獨立維護的 Skills、一個紀事員模型、衝突處理機制、執行前凍結的規格書，讓你的 AI 助理永遠記得什麼才是真正重要的。
+> **One-line Positioning / 一句話定位：** A context-governance control plane for long-lived AI collaboration. Canonical goals, criteria, boundaries, state, and decisions are separated from procedural Agent Skills; external Skill ecosystems remain federated rather than absorbed. A Clerk, conflict/promotion gates, Execution Specs, evidence reconciliation, and a Pi-based reference runtime keep agents aligned without turning every capability into one monolithic memory system. / 一個面向長期 AI 協作的上下文治理控制平面。核心目標、成功標準、邊界、狀態與決策與程序性 Agent Skills 分離；外部 Skill 生態系是 Federation，而非被吸收。紀事員、衝突/晉升 Gate、Execution Spec、證據對帳與以 Pi 為核心的 reference runtime，共同確保代理在正確的現實狀態下工作。
 
 ---
 
@@ -82,8 +82,15 @@ I do not need the model to remember everything forever. I need it to see the rig
 
 ---
 
-**Version / 版本：** 2026-07-30
+**Version / 版本：** 2026-07-30 (V1) · 2026-08-07 (V2 Architecture Revision)
 
 ---
 
-**Technical Details / 技術細節：** English full article: [`FULL_ARTICLE.en.md`](FULL_ARTICLE.en.md) · 繁體中文完整文章：[`FULL_ARTICLE.md`](FULL_ARTICLE.md)
+**Technical Details / 技術細節：**
+
+- **Current architecture / 目前生效架構：** [`ARCHITECTURE_REVISION_2026-08-07.md`](ARCHITECTURE_REVISION_2026-08-07.md)
+- **Original full specification / 原始完整規格：** [`FULL_ARTICLE.md`](FULL_ARTICLE.md)
+- **English current architecture：** [`ARCHITECTURE_REVISION_2026-08-07.en.md`](ARCHITECTURE_REVISION_2026-08-07.en.md)
+- **English V1 baseline：** [`FULL_ARTICLE.en.md`](FULL_ARTICLE.en.md)
+
+> **版本說明：** `FULL_ARTICLE.md` 保留為設計歷史基準。2026-07-30 V1 為原始設計藍圖；V2 在 Skill 分層、第三方 Skill Federation、Pi 的完整產品定位、Promotion/Compilation 與資料契約上 supersede V1。

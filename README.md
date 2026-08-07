@@ -130,9 +130,9 @@ A 39-chapter curriculum for mastering every technology needed to build a multi-s
 
 ### 004 — Personal Context OS / 個人上下文作業系統
 
-Not longer chat history. Multiple independent Skills, a Clerk model that maintains purpose and standards, conflict gates, execution specs, and limited questioning. The chat frontend and main model are replaceable; the real product is the Context Core.
+**Personal Context OS:** A context-governance control plane for long-lived AI collaboration. Canonical goals, criteria, boundaries, state, and decisions are separated from procedural Agent Skills; external Skill ecosystems remain federated rather than absorbed. A Clerk, conflict/promotion gates, Execution Specs, evidence reconciliation, and a Pi-based reference runtime keep agents aligned without turning every capability into one monolithic memory system.
 
-**個人上下文作業系統：** 不是更長的聊天歷史。多個可獨立維護的 Skills、一個負責記錄目標和標準的紀事員模型、衝突處理機制、執行前凍結的規格書、有限提問規則。聊天介面和主要模型都可以換，真正的產品是中間的核心。
+**個人上下文作業系統：** 一個面向長期 AI 協作的上下文治理控制平面。核心目標、成功標準、邊界、狀態與決策與程序性 Agent Skills 分離；外部 Skill 生態系是 Federation，而非被吸收。紀事員、衝突/晉升 Gate、Execution Spec、證據對帳與以 Pi 為核心的 reference runtime，共同確保代理在正確的現實狀態下工作。
 
 [Read the article → / 閱讀文章 →](articles/004-personal-context-os/)
 
