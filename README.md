@@ -168,9 +168,25 @@ A bidirectional adversarial post-training framework. One model generates details
 
 ---
 
+## Project Ecosystem / 專案關係
+
+These repositories are one connected body of work, but they have different responsibilities:
+the Journal explains the ideas, product repositories contain executable tools, and research
+repositories preserve their own evidence. The complete map also explains which local folders
+are working copies rather than separate projects.
+
+這些倉庫是同一套工作的不同層次，但責任並不相同：Journal 說明理念，產品庫保存可執行工具，
+研究庫保存各自的證據。完整關係圖也會說明哪些本機資料夾只是工作或驗證副本，並不是新專案。
+
+[View the complete project map → / 查看完整專案關係圖 →](PROJECT_ECOSYSTEM.md)
+
+---
+
 ## Related Work / 相關連結
 
 - [GitHub Profile / GitHub 個人檔案](https://github.com/linjuhon)
 - [b9128-reconstruction](https://github.com/linjuhon/b9128-reconstruction) — The reconstruction project from Article 001 / 第 1 篇文章的重建專案
 - [video20-ai-workbench](https://github.com/linjuhon/video20-ai-workbench) — AI workbench for video processing / AI 影片處理工作檯
 - [Local Code Intelligence Toolkit](https://github.com/linjuhon/local-code-intelligence-toolkit) — Local SQLite code intelligence and MCP retrieval for AI-assisted engineering / 給 AI 工程工作流使用的本地程式碼索引與 MCP 查詢工具
+- [AI Collaboration Forensics](https://github.com/linjuhon/ai-collaboration-forensics) — Deidentified evidence and research on long-running AI collaboration / 長期 AI 協作的去識別證據與研究整理
+- [TRI-100R Reconstruction](https://github.com/linjuhon/tri-100r-reconstruction) — Traceable reconstruction of the extreme-optimization collaboration record / 極限優化協作紀錄的可追溯重建
