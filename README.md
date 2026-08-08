@@ -98,7 +98,9 @@ You do not need to read them in order. Each article has its own README that expl
 
 ## The Articles / 文章一覽
 
-### 001 — Goal Takeover: When the Model Rewrites Your Task / 目標接管：當模型偷偷改寫你的任務
+> 每篇文章標記成熟度：`CASE STUDY` 是真實案例；`ARCHITECTURE` 是已設計的架構藍圖；`ROADMAP` 是學習路線；`PRODUCT SPEC` 是產品規格；`RESEARCH PROPOSAL` 是研究提案（尚未實作成產品）。
+
+### `CASE STUDY` 001 — Goal Takeover: When the Model Rewrites Your Task / 目標接管：當模型偷偷改寫你的任務
 
 A real two-week engineering case. GPT-5.6 silently changed my task from "find the correct version" to "fix the current version." I caught it, killed the sunk cost, switched models, and recovered the project.
 
@@ -108,7 +110,7 @@ A real two-week engineering case. GPT-5.6 silently changed my task from "find th
 
 ---
 
-### 002 — Astrology System Unified Architecture / 占星系統統一架構
+### `ARCHITECTURE` 002 — Astrology System Unified Architecture / 占星系統統一架構
 
 An honest restructuring of a fragmented design document: 9 processing stages, 12 core modules, 1,631 tags, 7 databases. Every number is labeled as "design target," "acceptance threshold," or "verified result."
 
@@ -118,7 +120,7 @@ An honest restructuring of a fragmented design document: 9 processing stages, 12
 
 ---
 
-### 003 — Full-Stack Deep Learning Roadmap / 全技術棧學習路線圖
+### `ROADMAP` 003 — Full-Stack Deep Learning Roadmap / 全技術棧學習路線圖
 
 A 39-chapter curriculum for mastering every technology needed to build a multi-stack AI system. Each chapter requires a mental model, file location, minimal code, tests, observability, and counterexamples.
 
@@ -128,7 +130,7 @@ A 39-chapter curriculum for mastering every technology needed to build a multi-s
 
 ---
 
-### 004 — Personal Context OS / 個人上下文作業系統
+### `PRODUCT SPEC` 004 — Personal Context OS / 個人上下文作業系統
 
 **Personal Context OS:** A context-governance control plane for long-lived AI collaboration. Canonical goals, criteria, boundaries, state, and decisions are separated from procedural Agent Skills; external Skill ecosystems remain federated rather than absorbed. A Clerk, conflict/promotion gates, Execution Specs, evidence reconciliation, and a Pi-based reference runtime keep agents aligned without turning every capability into one monolithic memory system.
 
@@ -138,7 +140,7 @@ A 39-chapter curriculum for mastering every technology needed to build a multi-s
 
 ---
 
-### 005 — From Answer Generator to Global Intelligence / 從答案生成器到全局智能
+### `RESEARCH PROPOSAL` 005 — From Answer Generator to Global Intelligence / 從答案生成器到全局智能
 
 A theory of why models get stuck in local optima: they cannot tell when a method has reached its limit, they cannot switch paradigms, and they cannot maintain a high-level strategy over long horizons. Includes training data design and evaluation dimensions.
 
@@ -148,7 +150,7 @@ A theory of why models get stuck in local optima: they cannot tell when a method
 
 ---
 
-### 006 — A–E Truth-Narrative Symbiotic System / A–E 真理—敘事共生系統
+### `RESEARCH PROPOSAL` 006 — A–E Truth-Narrative Symbiotic System / A–E 真理—敘事共生系統
 
 Five physically separated components solving the fundamental contradiction between truth (needs precision) and narrative (needs stories). A truth engine, a narrative engine, a 100-dimensional control plane, a governance loop, and a semantic bridge research track.
 
@@ -158,7 +160,7 @@ Five physically separated components solving the fundamental contradiction betwe
 
 ---
 
-### 007 — Upward Model × Downward Model / 上行模型 × 下行模型
+### `RESEARCH PROPOSAL` 007 — Upward Model × Downward Model / 上行模型 × 下行模型
 
 A bidirectional adversarial post-training framework. One model generates details from purpose (downward). Another model reverse-infers purpose from results (upward). Both compete under the same purpose vector. The system does not rush to answer — it first checks if there is enough evidence to enter the next truth gate.
 
