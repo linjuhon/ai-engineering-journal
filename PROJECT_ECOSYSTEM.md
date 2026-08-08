@@ -40,6 +40,28 @@ AI Engineering Journal
 3. TRI-100R 的開發現場目前仍有未提交內容。直接搬進別的 repo，會混淆「正式成果」與「尚未封存的工作」。
 4. 乾淨 clone 是驗收工具，不是新產品。另開 repo 只會讓同一成果出現兩次。
 
+### 為什麼記錄這些聊天
+
+**人機交互是 AI 工程最真實的材料，原始對話軌跡就是它的原始碼。**
+
+AI 工程最大的風險不是「AI 寫錯」，而是「AI 看起來有在做事，但做的不是你要的事」。
+要對抗這件事，不能靠事後敘事——事後敘事是已經被解釋過的世界，敘述者可以無意間把
+計畫說成執行、把假設說成結論。唯一可反駁的證據，是當時那幾行原始對話本身。
+
+因此我把每一段人機協作都當成資料庫問題處理：
+
+- **TRI-100R 保存「線上」**：我與原模型討論的 58,070 行原始對話，逐行登記來源、
+  狀態與追蹤。它回答：我們「說了」什麼、計畫了什麼。
+- **AI Collaboration Forensics 保存「落地」**：線上 AI 提交下來之後，模型實際去
+  做出來的 29 GB 執行快照，去識別後形成可公開研究語料。它回答：實際「做了」什麼、
+  怎麼做到的。
+
+兩者合起來才能回答那個最重要的問題：**對話裡說的，到底有沒有真的發生？**
+
+這同時是我的訓練品味。語言模型的品質取決於語料的誠實程度；只有能分辨
+「計畫、假設、提及與真實執行」的語料，才值得教給模型。把「說過的」當成「做過的」，
+訓練出來的模型就會把活動量當成完成——那正是目標漂移的根源。
+
 ### 單一真相來源
 
 - 作品關係與閱讀順序：本 Journal。
@@ -70,3 +92,18 @@ These folders represent four deliverables plus two local working copies:
 The repositories stay separate because they have different users, release cycles, evidence
 boundaries, and file sizes. The Journal links them together without duplicating their source
 or research corpora.
+
+### Why These Conversations Are Recorded
+
+**Human-AI interaction is the most authentic material in AI engineering, and the raw conversation trail is its source code.**
+
+The biggest risk in AI engineering is not "AI wrote it wrong" — it is "AI looks busy, but it is not solving your problem." You cannot counter that with post-hoc narratives: a narrative is the world as already interpreted, and the narrator can unintentionally turn plans into execution and hypotheses into conclusions. The only falsifiable evidence is the original conversation text itself.
+
+So I treat every human-AI collaboration as a database problem:
+
+- **TRI-100R preserves the "online" layer**: the 58,070 lines of raw conversation between me and the original model, registered line-by-line with provenance, status, and traceability. It answers: what we "said" and planned.
+- **AI Collaboration Forensics preserves the "on-the-ground" layer**: the 29 GB execution snapshot of the model actually doing the work after the online AI submitted it downstream, de-identified into a public research corpus. It answers: what was actually "done" and how.
+
+Together they answer the question that matters most: **did what was said in the conversation actually happen?**
+
+This is also my training taste. The quality of a language model is bounded by the honesty of its corpus; only corpora that can distinguish plans, hypotheses, mentions, and actual execution deserve to teach a model. Treating "said" as "done" trains models that mistake activity for completion — which is the root of goal drift.
